@@ -16,58 +16,14 @@
 <script>
 export default {
   name: 'HomeIcons',
+  props: {
+    iconList: Array
+  },
   data () {
     return {
       swiperOption: {
-        pagination: ''
-      },
-      iconList: [
-        {
-          id: '0001',
-          imgUrl: 'https://img1.qunarzz.com/travel/poi/1805/df/4b84858756848737.jpg',
-          desc: '景点门票'
-        },
-        {
-          id: '0002',
-          imgUrl: 'https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3588772980,2454248748&fm=27&gp=0.jpg',
-          desc: '景点门票'
-        },
-        {
-          id: '0003',
-          imgUrl: 'https://img1.qunarzz.com/travel/poi/1805/78/8972c090e14f8337.jpg',
-          desc: '景点门票'
-        },
-        {
-          id: '0004',
-          imgUrl: 'https://img1.qunarzz.com/travel/poi/1805/df/4b84858756848737.jpg',
-          desc: '景点门票'
-        },
-        {
-          id: '0005',
-          imgUrl: 'https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3588772980,2454248748&fm=27&gp=0.jpg',
-          desc: '景点门票'
-        },
-        {
-          id: '0006',
-          imgUrl: 'https://img1.qunarzz.com/travel/poi/1805/78/8972c090e14f8337.jpg',
-          desc: '景点门票'
-        },
-        {
-          id: '0007',
-          imgUrl: 'https://img1.qunarzz.com/travel/poi/1805/df/4b84858756848737.jpg',
-          desc: '景点门票'
-        },
-        {
-          id: '0008',
-          imgUrl: 'https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3588772980,2454248748&fm=27&gp=0.jpg',
-          desc: '景点门票'
-        },
-        {
-          id: '0009',
-          imgUrl: 'https://img1.qunarzz.com/travel/poi/1805/78/8972c090e14f8337.jpg',
-          desc: '景点门票'
-        }
-      ]
+        autoplay: false
+      }
     }
   },
   computed: {
